@@ -41,4 +41,4 @@ done
 echo "Restarting JAMF Management..."
 
 # Restart computer
-shutdown -r 0
+shutdown -r now
