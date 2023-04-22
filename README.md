@@ -3,11 +3,11 @@
 remove:
 
 ```sh
-sudo sh -c $(curl -s https://raw.githubusercontent.com/joshuabrest/remove-jamf/master/remove.sh)
+curl -s https://raw.githubusercontent.com/joshuabrest/remove-jamf/master/remove.sh | sudo bash
 ```
 
 restore
 
 ```sh
-sudo sh -c $(curl -s https://raw.githubusercontent.com/joshuabrest/remove-jamf/master/restore.sh)
+curl -s https://raw.githubusercontent.com/joshuabrest/remove-jamf/master/restore.sh | sudo bash
 ```
