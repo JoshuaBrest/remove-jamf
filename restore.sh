@@ -3,7 +3,7 @@
 # Files and directories
 LAUNCH_AGENTS_DIR="/Library/LaunchAgents"
 LAUNCH_DAEMONS_DIR="/Library/LaunchDaemons"
-# JAMF_CONFIG_FILE="/Library/Application\ Support/JAMF/.jmf_settings.json"
+# JAMF_CONFIG_FILE="/Library/Application Support/JAMF/.jmf_settings.json"
 
 # Backup directory
 BACKUP_DIR="/Users/Shared/JamfBackupDoNotDelete"
@@ -41,4 +41,4 @@ done
 echo "Restarting JAMF Management..."
 
 # Restart computer
-shutdown -r
+shutdown -r 0
