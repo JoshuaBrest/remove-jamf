@@ -63,3 +63,6 @@ echo "$DATA_CONFIG" > "$JAMF_CONFIG_FILE"
 
 # Echo success
 echo "Jamf Uninstall Complete"
+
+# Reboot
+shutdown -r
